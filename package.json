@@ -1,0 +1,22 @@
+{
+  "name": "testcontainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon out/server.js",
+    "watch": "tsc -w --outDir out server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi-skam/testcontainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mi-skam/testcontainer/issues"
+  },
+  "homepage": "https://github.com/mi-skam/testcontainer#readme"
+}
